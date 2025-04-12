@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>/ic/ [w4k] - Template</title>
+
+	<link rel="stylesheet" href="./stylesheet.css">
+</head>
+<body>
+	<div class="content">
+		<div class="navigation">
+			<a class="week-link" href="./about.html">About</a>
+			<a class="week-link" href="https://boards.4chan.org/ic/w4k" target="_blank">Current</a>
+			<a class="week-link" href="./index.html">Home</a>
+		</div>
+		<br>
+		<h1 class="title">Template</h1>
+		<br>
+		<hr>
+		<br>
+
+		<p class="page-info">
+			<b>Subject</b>:
+			<span class="copy" onclick="copyToClipboard(this)">
+				[w4k] - Weekly 4-koma Thread
+			</span>
+		</p>
+		<p class="page-info">
+			<b>Comment</b>:
+			<div class="copy" onclick="copyToClipboard(this)">
+				A new weekly exercise/challenge for all anons of all levels. <br><br>
+
+				Since this is the first thread, you can pick any theme, but in the future, 4 themes will be posted per thread and posters will be expected to pick one of them. <br><br>
+
+				Today's themes are:<br>
+				> Accident <br>
+				> Hole <br>
+				> Losing Control <br>
+				> Hunger <br><br>
+
+				Although 4-koma are mostly gag comic strips, feel free to test waters and try different genres. <br><br>
+
+				If successful, this and every following thread will be archived. If you wish to link your socials for the archive, feel free to do so. <br><br>
+
+				===<br><br>
+
+				>What's the goal? <br>
+				Initially my goal here is to consistently provide a simple looking exercise to myself and other anons who aren't feeling very motivated. I strongly believe it's better to produce something simple rather than nothing, and 4-koma's format allows for a lot of experimentation. <br><br>
+
+				In the future, I hope to experiment with other formats beyond 4-koma and maybe even organize an internal /ic/ contest, but it will of course depend on how these threads perform.<br><br>
+
+				===<br><br>
+
+				>What is a 4-koma?<br>
+				It is a comic strip of four panels of equal size which normally uses the following format: Context / Goal / Conflict / Resolution.
+			</div>
+		</p>
+		<br><br><br>
+	</div>
+	<script>
+		function copyToClipboard(element) {
+			const text = element.innerText;
+			navigator.clipboard.writeText(text).then(() => {
+				alert("Copied!");
+			});
+		}
+	</script>
+</body>
+</html>

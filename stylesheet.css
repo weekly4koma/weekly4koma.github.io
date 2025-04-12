@@ -1,0 +1,115 @@
+*, *::before, *::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html, body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+}
+
+body {
+	background: linear-gradient(to bottom, #f3d6b6, #fdfbe6);
+	color: #800000;
+	font-family: "Verdana", "Arial", sans-serif;
+	font-size: 20px;
+
+	background: transparent;
+}
+
+hr{
+	color: black;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: sans-serif !important;
+	text-shadow: 1px 1px 1px rgba(100, 0, 0, 0.6);
+}
+
+.week-link {
+	text-decoration: none;
+	color: blue;
+}
+
+.week-date, .week-info, .week-theme {
+	padding-left: 10px;
+	font-style: italic;
+}
+
+.entry, .week, .current-thread {
+	padding-top: 2%;
+	padding-bottom: 2%;
+}
+
+.disabled {
+	pointer-events: none;
+	color: red;
+	text-decoration: line-through;
+	cursor: default;
+}
+
+.entry-author {
+	text-decoration: none;
+	font-style: bold;
+	color: blue;
+}
+.anon {
+	color: #117743;
+}
+
+.entry-img {
+	width: 100%;
+	height: auto;
+	display: block;
+}
+
+.entry-title {
+	font-weight: bold;
+}
+
+.title {
+	display: flex;
+	justify-content: center;
+}
+
+.navigation {
+	display: flex;
+	justify-content: space-between;
+}
+
+.page-info {
+	padding-top: 2%;
+	padding-bottom: 2%;
+	font-size: 16px;
+}
+
+.copy:hover{
+	color: blue;
+	cursor: pointer;
+}
+
+.greentext {
+	color: #789922;
+}
+
+.content {
+	background: linear-gradient(to bottom, #f3d6b6, #fdfbe6);
+	/*background: linear-gradient(to bottom, black, green);*/
+	margin: 0 auto;
+	padding-left: 30%;
+	padding-right: 30%;
+	width: 100%;
+	min-height: 100vh;
+}
+
+@media (max-width: 1200px) {
+	.content {
+		padding: 2%;
+	}
+	.week, .current-thread {
+		padding-top: 2.5%;
+		padding-bottom: 2.5%;
+	}
+}
